@@ -2,7 +2,7 @@ nav{
 display: flex;
 justify-content: space-between;
 padding:15px 122px 15px 122px;
-background-color:rgba(114, 254, 205, 0.607);
+background-color:rgb(244, 244, 244);
 }
 nav img{
     width: 140px;
@@ -37,7 +37,6 @@ height: 60px;
 background:rgba(70,145,100,1);
 border-radius: 5px;
 gap:30px;
-/* margin-top: 16px; */
 }
 .hero-section{
 padding: 130px 150px;
@@ -64,14 +63,6 @@ text-align: center;
 color: aliceblue;
 margin-top: 80px;
 padding: 0px 250px;
-}
-/* .hero-section. hero-title{ */
-    font-size: 70px;
-    text-align:right;
-    height: 70px;
-    width: 170px;
-    color:rgba(235, 42, 148, 0.422);
-
 }
 .hero-title{
     width: 170px;
@@ -139,4 +130,61 @@ gap: 10;
     display: flex;
     justify-content: space-between;
 }
+.brain-section{
+    padding: 120px;
+    display: flex;
+}
+.brain-main-section{
+   padding-top: 30px;
+   /* margin-left: 40px; */
+}
 
+.brain-main-section p{
+    font-size: 13px;
+    color: rgb(7, 7, 30);
+}
+.brain-main-section h2 {
+    color: rgb(22, 1, 25);
+    font-size: 40px;
+    font-weight: 600;
+}
+.brain-main-section ul li{
+  list-style: none;
+  font-size: 15px;
+}
+.brain-main-section ul{
+    margin-top: 30px;
+}
+.think-section{
+    padding: 20px 0px 0px 0px;
+    color: rgb(8, 8, 12);
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+.think-section p{
+    padding: 10px;
+    text-align:center;
+    t
+    height: 50px;
+    margin-bottom: 47px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.852);
+}
+button {
+    border-radius: 5px;
+    color: rgb(245, 248, 248);
+    background-color: rgba(0, 89, 36, 0.884);;
+}
+footer {
+    background-color: rgb(3, 51, 37);
+    height: 350px;
+    display: flex;
+}
+.fot-section{
+    gap:50;
+    display: flex;
+    justify-content: space-between;
+margin: 120px 20px 120px 120px;
+
+}
