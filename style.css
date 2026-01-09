@@ -4,9 +4,15 @@ justify-content: space-between;
 padding:15px 122px 15px 122px;
 background-color:rgb(244, 244, 244);
 }
+ .navim:hover{
+background-color: aqua;
+}
 nav img{
     width: 140px;
     height: 62px;
+}
+img:hover{
+    background-color: darkmagenta;
 }
 nav ul{
     display: flex;
@@ -45,6 +51,9 @@ max-width: 1280px;
 text-align: center;
 height: 400px;
 background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
+}
+.hero-section-tp:hover{
+    color: aqua;
 }
 .hero-section-tp h1{
 color: rgba(240, 248, 255, 0.913);
@@ -176,15 +185,32 @@ button {
     color: rgb(245, 248, 248);
     background-color: rgba(0, 89, 36, 0.884);;
 }
+button:hover{
+    background-color: aqua;
+}
 footer {
-    background-color: rgb(3, 51, 37);
+    background-color: rgb(1, 24, 17);
     height: 350px;
     display: flex;
 }
+footer:hover{
+    background-color: aqua;
+}
 .fot-section{
-    gap:50;
     display: flex;
+    gap:50;
     justify-content: space-between;
 margin: 120px 20px 120px 120px;
 
+}
+.small-1 {
+    text-align:center;
+    margin-top: 320px;
+    color: rgb(0, 0, 1);
+
+}
+.ft{
+    margin-left: 350px;
+    text-align: center;
+    display: flex;
 }
