@@ -1,5 +1,4 @@
 nav{
-    max-width: 1280px;
 display: flex;
 justify-content: space-between;
 padding:15px 122px 15px 122px;
@@ -8,5 +7,136 @@ background-color:rgba(114, 254, 205, 0.607);
 nav img{
     width: 140px;
     height: 62px;
-    margin-top: 12px;
 }
+nav ul{
+    display: flex;
+    height: 25px;
+    gap:30px;
+    margin-top: 20px;
+    color: black;
+
+}
+nav ul a{
+    text-decoration: none;
+}
+nav ul li{
+    list-style: none;
+}
+.but-get-1 a{
+ text-decoration: none;
+padding: 15px 20px;
+color: rgba(255, 255, 255, 0.932);
+font-size: 13px;
+height: 20px;
+font-weight: 700;
+}
+.but-get-1{
+    margin-bottom: 20px;
+ width: 160px;
+height: 60px;
+background:rgba(70,145,100,1);
+border-radius: 5px;
+gap:30px;
+/* margin-top: 16px; */
+}
+.hero-section{
+padding: 130px 150px;
+align-items: center;
+max-width: 1280px;
+text-align: center;
+height: 400px;
+background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
+}
+.hero-section-tp h1{
+color: rgba(240, 248, 255, 0.913);
+font-size: 70px;
+width: 770px;
+padding: 0px 70px;
+height: 85px;
+font-style:700;
+text-transform: capitalize;
+}
+.hero-section-tp p{
+    width: 400px;
+    height:20px;
+    font-size:20px;
+text-align: center;
+color: aliceblue;
+margin-top: 80px;
+padding: 0px 250px;
+}
+/* .hero-section. hero-title{ */
+    font-size: 70px;
+    text-align:right;
+    height: 70px;
+    width: 170px;
+    color:rgba(235, 42, 148, 0.422);
+
+}
+.hero-title{
+    width: 170px;
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
+    display: flex;
+}
+.h-d-t {
+color: #00de379c;
+}
+.bt{
+    margin-right: 5px;
+    display: inline;
+    justify-content: center;
+    font-size:14px;
+    width:200px;
+    height:60px;
+ background:rgba(3, 122, 51, 0.708);
+}
+button {
+gap: 10;
+    color: rgb(240, 248, 244);
+    margin-top: 16px;
+    display: inline;
+    justify-content: center;
+    font-size:12px;
+    width:180px;
+    height:50px;
+ background:rgba(6, 242, 148, 0.057);
+}
+.bticon{
+    width:12px;
+    height: 12px;
+   
+}
+.bticon1{
+     width:15px;
+    height: 15px;
+    color: aliceblue;
+}
+.structure-section{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+.structure-section-p{
+    font-size: 15px;
+     text-align: center;
+}
+.bookmark{  
+    text-align: center;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: brown;
+    color: rgb(242, 244, 245);
+}
+.card-body{
+    margin-top: 30px;
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
