@@ -1,0 +1,12 @@
+nav{
+    max-width: 1280px;
+display: flex;
+justify-content: space-between;
+padding:15px 122px 15px 122px;
+background-color:rgba(114, 254, 205, 0.607);
+}
+nav img{
+    width: 140px;
+    height: 62px;
+    margin-top: 12px;
+}
